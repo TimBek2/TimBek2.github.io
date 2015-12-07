@@ -1,0 +1,16 @@
+1. Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
+First you want to go to your github page and click on the plus, then new repository. Name the repository whatever you want, add a description if you want, and choose if it's public or private. If you're making a new repository and not uploading one to github, check the box next to initialize this repository with a readme. You want to add a license, because it'll help define what are the rights of the code, and then click create. From here, click the clipboard next to the URL to copy the copy URL to your clipboard. Now open your terminal and navigate to the directory you want the file to exist on and type git commit -paste the link from github here-.
+
+2. Describe what open source means.
+Open source means that the source code for a given piece of software is available to the public in some form. Depending on what license(s) is used, the rights and permissions around this code can range from something being available for download and sharing, but it cannot be changed, or sold, and the original author must be attributed, to the MIT license, which definitively releases the code to the public for download, distribution, alteration, sale, etc. 
+
+3. What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
+I support Open Source as a concept. At the very least, it allows software to be checked for bugs (or malicious code) by independent third parties while protecting the ownership rights of the original publishers, but some of the open source projects go on to become massive projects because they have so many people working on it simultaneously.
+
+4. Assess the importance of using licenses.
+Licenses are helpful because they clearly define the rules surrounding one work versus another. I guess if you plan on using an MIT license, which basically releases all rights to the work to the public, then a license isn't as important, but in any other case a license is an easy way to indicate how the author wants a work to be treated.
+
+5. What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
+I'm getting very comfortable navigating around from the command line now, and shortcuts that seemed to not work before (like subl -file- not launching a file in sublime) are now working. I'm feeling much more comfortable committing files to git and pushing them to GitHub, although I still need to look at the instructions when pushing to GitHub and then syncing back to my local machine. I had a definite aha moment when I realized the first time that I did this that I was naming my file just my username, and not [username].github.io, so I kept getting a 404 page and it wouldn't link, until my third time through the instructions. 
+6. Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+No, the information and links provided by class were adequate. Any issues I had were caused by my own mistakes.
