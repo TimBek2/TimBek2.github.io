@@ -1,3 +1,5 @@
+TimBek2.github.io
+
 1. Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 First you want to go to your github page and click on the plus, then new repository. Name the repository whatever you want, add a description if you want, and choose if it's public or private. If you're making a new repository and not uploading one to github, check the box next to initialize this repository with a readme. You want to add a license, because it'll help define what are the rights of the code, and then click create. From here, click the clipboard next to the URL to copy the copy URL to your clipboard. Now open your terminal and navigate to the directory you want the file to exist on and type git commit -paste the link from github here-.
 
