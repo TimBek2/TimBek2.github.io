@@ -49,7 +49,7 @@ ul {
 
 }
 
-li {
+nav li {
 	font-size: 22px;
 	padding: 8px;
 	display: inline;
@@ -67,6 +67,11 @@ a:hover {
 	color: #E8B50C;
 }
 
+h3 li {
+	color: #ffffff;
+	padding-top: 30px;
+}
+
 /**************
 Main Styling
 **************/
@@ -75,7 +80,7 @@ article h1 {
 	font-family: sans-serif;
 	text-align: center;
 	font-size: 30px;
-
+	padding-top: 20px;
 }
 
 article p {
@@ -83,6 +88,12 @@ article p {
 	font-size: 18px;
 	padding: 10px 50px;
 }
+
+/**
+Later on will add a block for the most recent blog post w/ excerpt to sit below Background
+**/
+
+
 /**************
 Footer Styling
 **************/
@@ -91,4 +102,11 @@ footer {
 	text-align: center;
 	padding: 10px 15px;
 	background-color: #5091FF;
+}
+
+.email {
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
