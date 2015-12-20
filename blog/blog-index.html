@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
+		<head>
 		<title>My Blog|Tim Beck</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
 	</head>
 	<body>
 		<header>
-			<h4>Today's Date</h4>
-			<!--This will sit in the top left of the header-->
-
-			<h1>My Blog</h1>
+			<h1 class="logo">My Blog</h1>
 			<!--This will sit in the middle-->
 
-			<img src="#" alt="picture of me">
-			<!--This will sit upper right in the header-->
+			<!--
+			Background image/design to be found and input
+			-->
 			<nav>
-				<a href="../index.html">Home</a>
-				<a href="#">About Me</a>
-				<a href="./blog-index.html">My Blog</a>
-				<a href="#">Projects</a>
-				<a href="#">Resume</a>
-				<a href="#">Contact</a>
+				<ul>
+					<li><a class="nav-links" href="./index.html">Home</a></li>
+					<li><a class="nav-links" href="#">About Me</a></li>
+					<li><a class="nav-links" href="./blog/blog-index.html">My Blog</a></li>
+					<li><a class="nav-links" href="#">Projects</a></li>
+					<li><a class="nav-links" href="#">Resume</a></li>
+					<li><a class="nav-links" href="#">Contact</a></li>
+				</ul>
 			</nav>
 		</header>
-		<aside>
-			<a href="#"><img src="#" alt="Facebook" /></a>
-			<a href="#"><img src="#" alt="LinkedIn" /></a>
-			<a href="#"><img src="#" alt="GitHub" /></a>
-			<a href="#"><img src="#" alt="Email" /></a>
-			<!--These will sit on the left side of the page, right under the nav bar on top, or alternately aligned underneath the contact tab-->
-		</aside>
+
 		<section>
 		<h3>Blog Posts</h3>
 			<ol>
@@ -42,5 +37,15 @@
 				<li><a href="#">Blog Post 7</a></li>
 			</ol>
 		</section>
+		<footer>
+		<a href="https://www.facebook.com/tkbeck"><img src="../imgs/FB-icon.png" alt="Facebook" /></a>
+		<a href="https://www.linkedin.com/in/becktim"><img src="../imgs/LinkedIn-icon.png" alt="LinkedIn" /></a>
+		<a href="https://github.com/timbek2"><img src="../imgs/Github-icon.png" alt="GitHub" /></a>
+			<!--Move mail to link to be centered, below the 3 social media buttons-->
+		<a class = "email" href="mailto:tim.beck46@gmail.com">Email me</a>
+			
+
+			<p>&copy; 2015; Tim Beck</p>
+		</footer>
 	</body>
 </html>
