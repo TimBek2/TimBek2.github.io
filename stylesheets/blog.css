@@ -12,7 +12,7 @@ Blog body formatting
 
 body {
 	font-family: sans-serif;
-	background-color: #FFF2D1;
+	background-color: #FFFFFF;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h4{
 
 section p {
 	padding: 10px 10%;
-
+	background-color: #FFF2D1
 }
 
 body a {
@@ -48,4 +48,8 @@ a:visited {
 
 .footer {
 	border: 0px solid #000000;
+}
+
+.blog-header {
+	background-color: #FFF2D1;
 }
