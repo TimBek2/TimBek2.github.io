@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-	border: 1px solid #00A7FF;
+	border: 0px solid #00A7FF;
 	text-align: center;
 	color: #ffffff;
 	font-family: sans-serif;
@@ -58,7 +58,7 @@ nav li {
 .nav-links {
 	text-decoration: none;
 	color: #ffffff;
-	border: 1px solid #00A7FF;
+	border: 0px solid #00A7FF;
 	font-family: sans-serif;
 	padding: 8px;
 }
@@ -109,4 +109,5 @@ footer {
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 10px;
+	border: 0px solid #000000;
 }

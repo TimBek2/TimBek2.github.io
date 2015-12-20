@@ -1,0 +1,51 @@
+/****
+Colors:
+Mustard Yellow - #E8B50C
+Gunmetal - #4F4E4C
+Offwhite - #FFF2D1 - this one might change
+Blue - #5091FF
+******/
+
+/**
+Blog body formatting
+**/
+
+body {
+	font-family: sans-serif;
+	background-color: #FFF2D1;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+h4{
+	text-align: center;
+
+}
+
+section p {
+	padding: 10px 10%;
+
+}
+
+body a {
+	text-decoration: none;
+	border: 1px solid #000000;
+	margin: 5px;
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+.footer {
+	border: 0px solid #000000;
+}
