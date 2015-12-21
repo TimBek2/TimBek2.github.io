@@ -53,6 +53,11 @@ nav li {
 	font-size: 22px;
 	padding: 8px;
 	display: inline;
+	color: #ffffff;
+}
+
+nav a {
+	color: #ffffff;
 }
 
 .nav-links {
