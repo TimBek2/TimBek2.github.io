@@ -34,19 +34,19 @@ section p {
 	background-color: #FFF2D1
 }
 
-body a {
+ol a {
 	text-decoration: none;
 	border: 1px solid #000000;
 	margin: 5px;
 	display: inline-block;
 }
 
-a:link {
+ol a:link {
 	text-decoration: none;
 	color: #000000;
 }
 
-a:visited {
+ol a:visited {
 	color: #000000;
 }
 
