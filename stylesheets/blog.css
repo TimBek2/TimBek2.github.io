@@ -57,3 +57,11 @@ ol a:visited {
 .blog-header {
 	background-color: #FFF2D1;
 }
+
+.devtools {
+	width: 80%;
+	height: auto;
+	display: block;
+	border: 1px #4F4E4C solid;
+	padding: 1em;
+}

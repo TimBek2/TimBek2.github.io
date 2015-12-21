@@ -6,24 +6,27 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
 </head>
 
-    <header>
-      <h1 class="logo">My Blog</h1>
-      <!--This will sit in the middle-->
+<!--
+Need to bring body tag up above <header>, make sure this doensn't break CSS when you do it
+-->
+<header>
+    <h1 class="logo">My Blog</h1>
+    <!--This will sit in the middle-->
 
-      <!--
-      Background image/design to be found and input
-      -->
-      <nav>
-        <ul>
-          <li><a class="nav-links" href="../index.html">Home</a></li>
-          <li><a class="nav-links" href="#">About Me</a></li>
-          <li><a class="nav-links" href="./blog-index.html">My Blog</a></li>
-          <li><a class="nav-links" href="#">Projects</a></li>
-          <li><a class="nav-links" href="#">Resume</a></li>
-          <li><a class="nav-links" href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!--
+    Background image/design to be found and input
+    -->
+    <nav>
+      <ul>
+        <li><a class="nav-links" href="../index.html">Home</a></li>
+        <li><a class="nav-links" href="#">About Me</a></li>
+        <li><a class="nav-links" href="./blog-index.html">My Blog</a></li>
+        <li><a class="nav-links" href="#">Projects</a></li>
+        <li><a class="nav-links" href="#">Resume</a></li>
+        <li><a class="nav-links" href="#">Contact</a></li>
+      </ul>
+    </nav>
+</header>
 
 <body>
   <h1 class="blog-header">Git, GitHub, and You</h1>
@@ -46,7 +49,9 @@
       <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
 </body>
-
+<!--
+Bring </body> underneath footer tag, same as <body> above the header up top. make sure this doesn't break CSS when you do it.
+-->
     <footer>
         <a class="footer" href="https://www.facebook.com/tkbeck"><img src="../imgs/FB-icon.png" alt="Facebook" /></a>
         <a class="footer" href="https://www.linkedin.com/in/becktim"><img src="../imgs/LinkedIn-icon.png" alt="LinkedIn" /></a>
