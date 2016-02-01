@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="">
+    <head>
+        <title>Arrays and Hashes</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+        <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    </head>
+    <body>
+      <header>
+        <h1 class="logo">My Blog</h1>
+        <!--This will sit in the middle-->
+  
+        <!--Background image/design to be found and input-->
+      <nav>
+        <ul>
+          <li><a class="nav-links" href="../index.html">Home</a></li>
+          <li><a class="nav-links" href="../about-me.html">About Me</a></li>
+          <li><a class="nav-links" href="./blog-index.html">My Blog</a></li>
+          <li><a class="nav-links" href="../projects.html">Projects</a></li>
+          <li><a class="nav-links" href="#">Resume</a></li>
+          <!-- <li><a class="nav-links" href="#">Contact</a></li> -->
+        </ul>
+      </nav>
+  </header>
+      <article>
+        <!--publication date goes here-->
+        <!-- image goes here if you care for one -->
+        <h1>Arrays and Hashes</h1>
+        <h4>January 1, 2016</h4>
+        <p>Arrays and hashes are two of the most powerful and commonly used objects in Ruby, particularly when building apps. This is because one of the most common functions of both arrays and hashes, which is called iteration, allows you to call a block of code on an infinitely large series of inputs, and making our lives much easier. </p>
+        <p> There are several ways to create an array, but the easiest one for beginners is the literal array constructor, which is done using the brackets []. </p>
+        <script src="https://gist.github.com/TimBek2/51ecfcd15148f375ad8c.js"></script>
+        <p>In this example, you'll see that we can create an array, arr, just by setting it equal to brackets []. Arrays can be filled with anything, even including other arrays. Every element in the array is assigned a numerical value, starting at 0 and going up, which allows you to access specific elements in the array like this:</p>
+        <script src="https://gist.github.com/TimBek2/21c40cf18c12ae97ebab.js"></script>
+        <p>While this is helpful, the true power is in iteration, which we'll get to later. For now, just understand that arrays are essentially numbered lists of things.</p>
+        <p>Hashes are very similar to arrays, but differ in a very key way: instead of being a list single items with an assigned number (well, you could nest arrays within arrays, but the whole new array is treated as a single object), hashes actually store data in key: value pairs. You always must have both a key and a value - although the value can be nil, it must always be explicitly stated. The easiest way to create a hash, at least for now, is using the literal hash constructor, which looks like this:</p>
+        <script src="https://gist.github.com/TimBek2/29ef954ab2bdc1db0ccf.js"></script>
+        <p>Your keys and values can be anything you want, but remember to always use unique keys! If you reuse a key from earlier, then the earlier value will be overwritten, which can lead to confusion later. Just like with arrays, you can call a single value out of the hash by calling the hash and passing it the key for that value, like this:</p>
+        <script src="https://gist.github.com/TimBek2/92254c326156300ffc66.js"></script>
+        <p>Now to get to one of the most powerful functions of both arrays and hashes: iteration. Iteration is the languages ability to apply a block of code to every element in the object. The syntax for each is a little different based on how they're structured, and how they behave is a little different, but the concept is the same for both: for each element the object has, do what you tell it to do.</p>
+        <script src="https://gist.github.com/TimBek2/bcb53d695d469f128d14.js"></script>
+        <p>As you can see, the code for the hash is a bit more complicated because you're dealing with both the key and the value, and you can do different things with each, while the array is just one object per element to focus on. In both cases, however, we were able to write just a single block that will now repeat itself over as many items as we want to put into our containers. There are many more, powerful methods that can be used on arrays and hashes, but that is a challenge for another day.</p>
+      </article>
+      <footer>
+        <p>&copy; 2016, Tim. All rights are definitely reserved.</p>
+      </footer>
+    </body>
+</html>
