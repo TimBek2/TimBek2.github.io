@@ -24,6 +24,12 @@ hr.light {
     border-color: #fff;
 }
 
+#homepage-break {
+    border-color: #777B79;
+    border-width: 1px;
+    max-width: 85%;
+}
+
 a {
     color: #f05f40;
     -webkit-transition: all .35s;
