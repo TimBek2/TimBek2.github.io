@@ -68,7 +68,11 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #1485CC;
+    background-color: #222222;
+}
+
+#rule-37-header {
+    margin: 5%;
 }
 
 .text-faded {
@@ -464,6 +468,11 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+}
+
+.github-btns {
+    border-radius: 0;
+    margin: 4%;
 }
 
 .btn-xl {
