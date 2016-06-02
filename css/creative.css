@@ -20,6 +20,11 @@ hr {
     border-width: 3px;
 }
 
+hr#pet-finder-line {
+    max-width: 37%;
+    border-color: black;
+}
+
 hr.light {
     border-color: #fff;
 }
@@ -96,6 +101,10 @@ aside {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
+}
+
+#pet-navbar-text {
+    color: rgba(109, 106, 106, 0.7);
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -190,6 +199,10 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#pet-header {
+    background-image: url(../img/pet-finder-header.jpeg);
 }
 
 header .header-content {
