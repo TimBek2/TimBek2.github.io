@@ -206,7 +206,11 @@ header {
 }
 
 #pet-header {
-    background-image: url(../img/pet-finder-header.jpeg);
+    background-image: url(../img/next-best-friend/next-best-friend-header.jpeg);
+}
+
+#meteor404-header {
+    background-image: url(../img/meteor404/Meteorite-pallasite-Glorieta.jpg);
 }
 
 header .header-content {
