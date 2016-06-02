@@ -466,6 +466,11 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
 }
 
+.github-btns {
+    border-radius: 0;
+    margin: 4%;
+}
+
 .btn-xl {
     padding: 15px 30px;
 }
