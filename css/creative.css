@@ -68,7 +68,11 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #1485CC;
+    background-color: #222222;
+}
+
+#rule-37-header {
+    margin: 5%;
 }
 
 .text-faded {
